@@ -23,7 +23,7 @@ Things you may want to cover:
 
 * ...
 
-list command:
+List command:
 git clone git@github.com:guz86/rails_heroku.git
 rails new rails_heroku
 cd rails_heroku
@@ -43,7 +43,11 @@ git push heroku master
 		  gem 'pg'
 		end
 git push heroku master
+* https://gentle-everglades-97664.herokuapp.com/posts
+* error We're sorry, but something went wrong.
+*fix error
+heroku run rake db:migrate
 
+Have fun!
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+ 
