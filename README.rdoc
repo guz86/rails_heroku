@@ -29,7 +29,7 @@ rails new rails_heroku
 cd rails_heroku
 rails g scaffold Post title:string body:string user_id:integer
 rake db:migrate
-
+gem install heroku
 
 
 Please feel free to use a different markup language if you do not plan to run
