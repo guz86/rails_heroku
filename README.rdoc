@@ -31,6 +31,9 @@ rails g scaffold Post title:string body:string user_id:integer
 rake db:migrate
 gem install heroku
 heroku create
+* https://gentle-everglades-97664.herokuapp.com
+git push heroku master
+* An error occurred while installing sqlite3 (1.3.11), and Bundler cannot
 
 
 
