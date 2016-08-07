@@ -34,7 +34,15 @@ heroku create
 * https://gentle-everglades-97664.herokuapp.com
 git push heroku master
 * An error occurred while installing sqlite3 (1.3.11), and Bundler cannot
-
+* fix error: add from Gemfile 
+		group :development do
+		  # Use sqlite3 as the database for Active Record
+		  gem 'sqlite3'
+		end
+		group :production do
+		  gem 'pg'
+		end
+git push heroku master
 
 
 Please feel free to use a different markup language if you do not plan to run
